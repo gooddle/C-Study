@@ -1,0 +1,21 @@
+# 빌드 결과물 (가장 중요!)
+cmake-build-debug/
+cmake-build-release/
+bin/
+obj/
+
+# CLion 전용 설정 (개인 설정이라 공유 안 하는 게 매너)
+.idea/
+
+# 컴파일러가 만든 실행 파일들
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.lib
+*.a
+
+# 기타 OS 임시 파일
+.DS_Store
+Thumbs.db
