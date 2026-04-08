@@ -25,7 +25,7 @@ int run_chap_1(void) {
     printf("%.3lf\n", pi2);
     // 소수점 자릿수를 제한하고 싶다면 (예: 소수점 2자리)
     printf("%.2f\n", pi1);
-    //0,1 로찍힘
+    //0,1 로찍힘(1바이트)
     printf("%d\n",is_true);
     //배열 출력
     printf("%s\n", name);
