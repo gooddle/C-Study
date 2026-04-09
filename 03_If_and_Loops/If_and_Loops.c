@@ -28,6 +28,20 @@ int run_chap_3(void) {
     printf("%lu\n", sizeof(name));
     int c = 9;
 
+    int name2 [20] = {0,};
+
+    // 1. 배열 전체가 차지하는 메모리 크기 (바이트 단위)
+    int total_size = sizeof(name2);
+    printf("배열 전체의 메모리 크기는 %d\n", total_size);
+    // 2. int형 데이터 한 개가 차지하는 메모리 크기
+    int unit_size = sizeof(name2[0]);
+    printf("배열 1개의 메모리 크기는 %d\n", unit_size);
+    // 3. '칸 수' (전체 크기 / 한 칸 크기)
+    int length = sizeof(name2) / sizeof(name2[0]);
+    for (int i =0; i < length; i++) {
+        name2[i] +=i;
+        printf("%d\t", name2[i]);
+    }
     //첫번째 case에서 break
     switch (c) {
         case 9:
