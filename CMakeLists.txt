@@ -7,4 +7,6 @@ add_executable(my_study
         main.c
         01_Variable/var_study.c
         02_Operators/operators.c
+        03_If_and_Loops/If_and_Loops.c
+        03_If_and_Loops/if_and_Loops.h
 )
