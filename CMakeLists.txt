@@ -9,4 +9,6 @@ add_executable(my_study
         02_Operators/operators.c
         03_If_and_Loops/If_and_Loops.c
         03_If_and_Loops/if_and_Loops.h
+        04_Bit/bit.c
+        04_Bit/bit.h
 )

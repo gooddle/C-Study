@@ -3,6 +3,7 @@
 #include "01_Variable/var_study.h"
 #include "02_Operators/operators.h"
 #include "03_If_and_Loops/if_and_Loops.h"
+#include "04_Bit/bit.h"
 
 int main(void) {
     printf("Hello, World!\n");
@@ -11,4 +12,6 @@ int main(void) {
     run_chap_2();
     printf("Hello, World!\n");
     run_chap_3();
+    printf("Hello, World!\n");
+    run_chap_4();
 }
